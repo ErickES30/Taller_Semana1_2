@@ -27,10 +27,10 @@ public class Caso01 {
         System.out.print("Ingrese segundo número: ");
         double num2 = sc.nextDouble();
 
-        System.out.println("1. Suma");
-        System.out.println("2. Resta");
-        System.out.println("3. Multiplicación");
-        System.out.println("4. División");
+        System.out.println("1._ Suma");
+        System.out.println("2._ Resta");
+        System.out.println("3._ Multiplicación");
+        System.out.println("4._ División");
         System.out.print("Seleccione una opción: ");
 
         int opcion = sc.nextInt(); 
