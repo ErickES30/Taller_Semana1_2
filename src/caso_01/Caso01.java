@@ -17,7 +17,7 @@ public class Caso01 {
                 return 0;
         }
     }
-
+ 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -33,10 +33,10 @@ public class Caso01 {
         System.out.println("4. División");
         System.out.print("Seleccione una opción: ");
 
-        int opcion = sc.nextInt();
+        int opcion = sc.nextInt(); 
 
-        System.out.println("Resultado: " + calcular(num1, num2, opcion));
-
+        System.out.println("Resultado final: " + calcular(num1, num2, opcion));
+ 
         sc.close();
     }
 }
